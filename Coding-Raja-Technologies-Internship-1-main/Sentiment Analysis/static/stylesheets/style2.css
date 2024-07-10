@@ -1,0 +1,48 @@
+*{
+    background-color: brown;
+}
+h1{
+    margin-bottom: 5%;
+    margin-top: 3%;
+    text-align: center;
+    font-size: 300%;
+    font-weight: 900;
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+form{
+    text-align: center;
+}
+#info{
+    height: 100px;
+    width: 500px;
+    background-color: darkolivegreen;
+    padding: 5px 5px 5px 5px;
+    box-sizing: content-box;
+    border-color: black;
+    border-style: solid;
+    border-width: medium;
+}
+#text{
+    font-size: 40px;
+    align-self: center;
+    color: black;
+    margin-top: 500px;
+    margin-left:400px;
+}
+#btn{
+    margin-top: 1%;
+    height: 50px;
+    width: 200px;
+    color: black;
+    font-weight: 900;
+    font-size: 100%;
+    background-color: peru;
+    border-style: solid;
+    border-width: medium;
+
+}
+#btn:hover{
+    background-color: black;
+    color: whitesmoke;
+}

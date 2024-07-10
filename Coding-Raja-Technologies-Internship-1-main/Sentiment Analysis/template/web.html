@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <title>Sentimental Analysis</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='stylesheets/style2.css')}}"></link>
+</head>
+<body>
+    <h1>Sentimental Analysis</h1>
+    <form action='/predict' method="post" required="required" class="form-control">
+        <textarea rows="10" cols="50" id="info" name="info" placeholder="Enter The Text"></textarea><br>
+        <input type="submit" id="btn"/><br>
+        
+    </form>
+    <text id= "text">{{pred}}</text>
+</body>
+</html>
